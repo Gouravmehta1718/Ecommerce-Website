@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PS England - Shopping Cart">
+    <title>Shopping Cart - PS England</title>
+    <link rel="stylesheet" href="./JS/CSS/cart.css">
+    <link rel="stylesheet" href="./JS/CSS/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <section class="top-txt">
+        <div class="head container">
+            <div class="head-txt">
+                <p>Free shipping, 7-day return or refund guarantee.</p>
+            </div>
+            <div class="user-actions">
+                <div class="user-icon">
+                    <!-- <i class='bx bxs-user'></i> -->
+                <div class="user-account">
+                    <a href="signup.html">SIGN IN</a>
+                    <a href="signup.html">SIGN UP</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <input type="checkbox" name="" id="checkbox">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#sellers">Shop</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <div class="logo">
+                <!-- <img src="https://i.postimg.cc/TP6JjSTt/logo.webp" alt=""> -->
+            </div>
+        </div>
+    </nav>
+
+    <section class="cart-section container">
+        <h1>Shopping Cart</h1>
+        <div class="cart-container">
+            <div id="cart-items">
+                <!-- Cart items will be dynamically added here -->
+            </div>
+            <div class="cart-summary">
+                <h3>Order Summary</h3>
+                <div class="summary-item">
+                    <span>Subtotal</span>
+                    <span id="subtotal">$0</span>
+                </div>
+                <div class="summary-item">
+                    <span>Shipping</span>
+                    <span>Free</span>
+                </div>
+                <div class="summary-item total">
+                    <span>Total</span>
+                    <span id="cart-total">$0</span>
+                </div>
+                <button class="checkout-btn">Proceed to Checkout</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container container">
+            <div class="content_1">
+                <img src="https://i.postimg.cc/htGyQ4JB/footer-logo.png" alt="logo">
+                <p>The customer is at the heart of our<br>unique business model, which includes<br>design.</p>
+                <img src="https://i.postimg.cc/Nj9dgJ98/cards.png" alt="cards">
+            </div>
+            <div class="content_2">
+                <h4>SHOPPING</h4>
+                <a href="index.html#sellers">Clothing Store</a>
+                <a href="index.html#sellers">Trending Shoes</a>
+                <a href="index.html#sellers">Accessories</a>
+                <a href="index.html#sellers">Sale</a>
+            </div>
+            <div class="content_3">
+                <h4>SHOPPING</h4>
+                <a href="./contact.html">Contact Us</a>
+                <a href="https://payment-method-sb.netlify.app/" target="_blank">Payment Method</a>
+                <a href="https://delivery-status-sb.netlify.app/" target="_blank">Delivery</a>
+                <a href="https://codepen.io/sandeshbodake/full/Jexxrv" target="_blank">Return and Exchange</a>
+            </div>
+            <div class="content_4">
+                <h4>NEWSLETTER</h4>
+                <p>Subscribe to receive updates, access to exclusive deals, and more.</p>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">
+                        <i class='bx bx-envelope'></i>
+                        Subscribe
+                    </button>
+                </div>
+                <div class="social-proof">
+                    <p>Join our 50,000+ subscribers!</p>
+                </div>
+            </div>
+        </div>
+        <div class="f-design">
+            <div class="f-design-txt container">
+                <p>Design and Code by code.sanket</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./JS/cart.js"></script>
+</body>
+
+</html>
